@@ -1,0 +1,31 @@
+# Unity project file merge rules
+*.cs text diff=csharp
+*.shader text
+*.cginc text
+*.compute text
+*.hlsl text
+*.glsl text
+
+# YAML serialized files (Unity default)
+*.meta text merge=union
+*.unity text merge=union
+*.prefab text merge=union
+*.asset text merge=union
+
+# Treat binary files as binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.psd binary
+*.fbx binary
+*.tga binary
+*.wav binary
+*.mp3 binary
+*.ogg binary
+*.dll binary
+*.exe binary
+*.mp4 binary
+*.mov binary
+
+# Normalize all text files to use LF
+* text=auto
