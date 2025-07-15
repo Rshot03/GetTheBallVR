@@ -5,6 +5,8 @@ using System.Linq;
 
 public class HighScoreManager : MonoBehaviour
 {
+    // Author: Reþat Kaan Hekimoðlu
+    // Date: July 2025
     public int maxScores = 5; // Top 5 scores
     public TextMeshPro scoreBoardText;
 

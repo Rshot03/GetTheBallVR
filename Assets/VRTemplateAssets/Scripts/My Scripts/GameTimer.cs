@@ -3,6 +3,8 @@ using UnityEngine;
 
 public class GameTimer : MonoBehaviour
 {
+    // Author: Reþat Kaan Hekimoðlu
+    // Date: July 2025
     public float startTime = 60f; // Total game time in seconds
     private float currentTime;
     public GameObject restartButton;

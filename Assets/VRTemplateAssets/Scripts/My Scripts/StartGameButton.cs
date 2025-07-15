@@ -3,7 +3,10 @@ using UnityEngine.SceneManagement;
 
 public class StartGameButton : MonoBehaviour
 {
-    public string sceneToLoad = "BasicScene"; // Change to your actual scene name
+    // Author: Reþat Kaan Hekimoðlu
+    // Date: July 2025
+
+    public string sceneToLoad = "BasicScene"; 
 
     private void OnTriggerEnter(Collider other)
     {

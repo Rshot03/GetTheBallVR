@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class BallTouch : MonoBehaviour
 {
+    // Author: Reþat Kaan Hekimoðlu
+    // Date: July 2025
     public ScoreTracker tracker;
     public GameTimer timer;
     public AudioClip touchSound;

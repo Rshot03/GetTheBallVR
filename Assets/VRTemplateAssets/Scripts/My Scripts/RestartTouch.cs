@@ -3,6 +3,9 @@ using UnityEngine.SceneManagement;
 
 public class RestartTouch : MonoBehaviour
 {
+    // Author: Reþat Kaan Hekimoðlu
+    // Date: July 2025
+
     private float lastTouchTime = 0f;
     public float cooldown = 1f; // prevent double-triggering
 

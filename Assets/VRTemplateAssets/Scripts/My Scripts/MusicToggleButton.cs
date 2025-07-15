@@ -1,5 +1,7 @@
 using UnityEngine;
 
+// Author: Reþat Kaan Hekimoðlu
+// Date: July 2025
 public class MusicToggleButton : MonoBehaviour
 {
     public float cooldownTime = 1f;

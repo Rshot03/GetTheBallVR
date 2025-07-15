@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class BounceDetector : MonoBehaviour
 {
+    // Author: Reþat Kaan Hekimoðlu
+    // Date: July 2025
     public AudioClip bounceSound;
     private AudioSource audioSource;
 

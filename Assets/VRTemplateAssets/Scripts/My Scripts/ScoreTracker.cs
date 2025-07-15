@@ -4,6 +4,8 @@ using System.Collections.Generic;
 
 public class ScoreTracker : MonoBehaviour
 {
+    // Author: Reþat Kaan Hekimoðlu
+    // Date: July 2025
     public int score = 0;
     public TextMeshPro scoreText;
     public AudioSource audioSource;

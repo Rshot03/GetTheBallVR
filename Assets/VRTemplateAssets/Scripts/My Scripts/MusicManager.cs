@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class MusicManager : MonoBehaviour
 {
+    // Author: Reþat Kaan Hekimoðlu
+    // Date: July 2025
     public static MusicManager Instance;
     private AudioSource audioSource;
 
